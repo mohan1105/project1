@@ -165,7 +165,8 @@ footer{
    float: left;
 
 }
-
+.image{
+   max-width:50%;
 nav-links ul{
    padding: 30px;
 } 
