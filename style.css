@@ -1,0 +1,251 @@
+body{
+    margin: 0;
+}
+
+.title{
+    display: flex;
+
+}
+.logo{
+
+    width: 50%;
+    height: 10vh;
+    
+}
+.logo img{
+    width:auto;
+    height: 20vh;
+}
+.right{
+    position: relative;
+    display: flex;
+}
+
+.title{
+    width: 90%;
+    height: 15vh;
+    
+    
+}
+.mtitle{
+    display: flex;
+    justify-content: center;
+}
+.navb{
+    display: flex;
+    padding: 10px;
+    margin-left: 15vh;
+    
+
+}
+.nav1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+    background-color: rgba(0, 0, 0, 0.747);
+
+}
+.inp{
+    display: flex;
+    height: 50px;
+    width: 40vh;
+    margin-left: 40vh;
+    margin-top: 20px;
+}
+.inp input[type=text] {
+        float: right;
+        padding: 6px;
+        border: none;
+        margin-top: 8px;
+        margin-right: 16px;
+        font-size: 17px;
+      }
+    
+
+.mnav1{
+    display: flex;
+    justify-content: center;
+}
+input{
+    margin: 5px;
+    width: 40vh;
+}
+
+
+.navbtn{
+    
+    padding: 5px;
+    color: white;
+    font-weight: 700;
+    margin-right: 35px;
+
+}
+
+.navbtn:hover{
+    color: rgb(0, 217, 255);
+    cursor: pointer;
+
+}
+.nav2{
+    width: 92%;
+    height: 5vh;
+    background-color: rgb(95, 184, 12);
+    display: flex;
+    align-items: center;
+}
+.mnav2{
+    display: flex;
+    justify-content: center;
+}
+.navbtn1{
+    margin: 10px;
+    color: aliceblue;
+    font-weight: 700;
+
+}
+.cont{
+   
+    width: 100%;
+    background-color: white;
+    position: relative;
+    margin-top: 0;
+    
+}
+.cont img{
+    width: 100%;
+}
+button{
+    height: 45px;
+    width: 100px;
+    background-color: #0edaff;
+    border: none;
+}
+.content{
+    width: 90% ;
+    background-color: aliceblue;
+    height: 70vh;
+    display: flex;
+    
+    justify-content: center;
+    
+
+}
+.mcontent{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.three{
+    display: flex;
+    background-color: aliceblue;
+    width: 90%;
+    
+}
+.mthree{
+    display: flex;
+    justify-content: center;
+}
+.three1{
+
+    flex: 1;
+    margin: 10px;
+
+}
+.img{
+    width: 50vh;
+    height: 30vh;
+    background-color: blanchedalmond;
+}
+img{
+    height: 30vh;
+    width: 50vh;
+}
+.txt{
+    width: 20%;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    right: 30px;
+    top:30px
+}
+.h1{
+    color: black;
+    font-weight: 900;
+    font-size: 20px;
+}
+p{
+    color: #555;
+}
+a{
+    text-decoration: none;
+    color: lightskyblue;
+}
+
+.img{
+    left: 20vh;
+    width: 40vh;
+    height: 30vh;
+    background-color: white;
+}
+
+
+.jpg{
+    width: 100%;
+    height: 100%;
+}
+
+@media(max-width:800px){
+   
+    input{
+        width: 30vh;
+    }
+    .nav2{
+        overflow-x: scroll;
+        overflow-y: hidden;
+
+    }
+    .inp{
+        margin-left: 10vh;
+    }
+    .nav2::-webkit-scrollbar{
+        display: none;
+    }
+    .navbtn{
+        text-align: left;
+        right: 60px;
+    }
+    .nav1{
+        text-align: left;
+        overflow-x: scroll;
+        
+
+    }
+    .nav1::-webkit-scrollbar{
+        display: none;
+        
+    }
+    .txt{
+        overflow-y: scroll;
+        overflow-x: hidden;
+        height: 30vh;
+        width: 30vh;
+        right: 10px;
+    }
+    .txt::-webkit-scrollbar{
+      display: none;
+    }
+    .three{
+        display: block;
+    }
+    .img{
+        width: 100%;
+    }
+    img{
+        width: 100%;
+    }
+}
