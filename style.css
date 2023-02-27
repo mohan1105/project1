@@ -8,14 +8,10 @@ body{
 }
 .logo{
 
-    width: 50%;
-    height: 10vh;
+    
     
 }
-.logo img{
-    width:auto;
-    height: 20vh;
-}
+
 .right{
     position: relative;
     display: flex;
@@ -23,25 +19,31 @@ body{
 
 .title{
     width: 90%;
-    height: 15vh;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     
     
 }
 .mtitle{
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 .navb{
     display: flex;
-    padding: 10px;
-    margin-left: 15vh;
+    padding:;
+    width: 90%;
     
 
 }
 .nav1{
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
     
     background-color: rgba(0, 0, 0, 0.747);
 
@@ -50,18 +52,9 @@ body{
     display: flex;
     height: 50px;
     width: 40vh;
-    margin-left: 40vh;
-    margin-top: 20px;
+  
 }
-.inp input[type=text] {
-        float: right;
-        padding: 6px;
-        border: none;
-        margin-top: 8px;
-        margin-right: 16px;
-        font-size: 17px;
-      }
-    
+
 
 .mnav1{
     display: flex;
@@ -75,10 +68,11 @@ input{
 
 .navbtn{
     
-    padding: 5px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     color: white;
     font-weight: 700;
-    margin-right: 35px;
 
 }
 
@@ -104,16 +98,26 @@ input{
     font-weight: 700;
 
 }
+.l1{
+    font-size: 40px;
+    font-weight: 600;
+    color: #0edaff;
+}
+.l2{
+    color: #555;
+}
 .cont{
    
     width: 100%;
     background-color: white;
     position: relative;
     margin-top: 0;
+    height: auto;
     
 }
 .cont img{
     width: 100%;
+
 }
 button{
     height: 45px;
@@ -122,7 +126,7 @@ button{
     border: none;
 }
 .content{
-    width: 90% ;
+    
     background-color: aliceblue;
     height: 70vh;
     display: flex;
@@ -132,7 +136,7 @@ button{
 
 }
 .mcontent{
-    width: 100%;
+    
     height: auto;
     display: flex;
     flex-direction: column;
@@ -200,7 +204,11 @@ a{
 }
 
 @media(max-width:600px){
-   
+
+
+   .logo{
+       width: 150px;
+   }
     input{
         width: 30vh;
     }
@@ -208,6 +216,11 @@ a{
         overflow-x: scroll;
         overflow-y: hidden;
 
+    }
+    input{
+        width: 100px;
+        position: relative;
+        
     }
     .inp{
         margin-left: 10vh;
@@ -235,6 +248,7 @@ a{
         height: 30vh;
         width: 30vh;
         right: 10px;
+        border: 1px solid;
     }
     .txt::-webkit-scrollbar{
       display: none;
